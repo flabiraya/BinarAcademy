@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/registration_background"
+        tools:context=".features.activity_regist.RegistActivity">
+
+    <TextView
+            android:id="@+id/CreateNewAccount"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="@string/Create_new_account"
+            android:textSize="30sp"
+            android:gravity="center"
+
+    />
+
+    <EditText
+            android:id="@+id/et_full_name"
+            android:background="@drawable/registration_edit_background"
+            android:padding="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/full_name"
+            android:textSize="21sp"
+    />
+
+    <EditText
+            android:id="@+id/et_email_address"
+            android:background="@drawable/registration_edit_background"
+            android:padding="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_address"
+            android:textSize="21sp"
+
+    />
+    <EditText
+            android:id="@+id/et_organization"
+            android:background="@drawable/registration_edit_background"
+            android:padding="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/university_organization"
+            android:textSize="21sp"
+
+    />
+    <EditText
+            android:id="@+id/et_passwords"
+            android:background="@drawable/registration_edit_background"
+            android:padding="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textSize="21sp"
+
+    />
+    <EditText
+            android:id="@+id/et_confirm_password"
+            android:background="@drawable/registration_edit_background"
+            android:padding="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password"
+            android:textSize="21sp"
+
+    />
+    <Button
+            android:id="@+id/bt_register"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_button_background"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textSize="21sp"/>
+
+</LinearLayout>

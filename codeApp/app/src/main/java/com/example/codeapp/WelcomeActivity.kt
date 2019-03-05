@@ -1,4 +1,4 @@
 package com.example.codeapp
 
-class RegisterActivity {
+class WelcomeActivity {
 }
