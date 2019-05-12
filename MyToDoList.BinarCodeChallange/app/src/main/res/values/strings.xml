@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string-array name="dialog_list">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+</resources>
